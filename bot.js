@@ -17,7 +17,7 @@ const TOKEN_PATH = 'token.json';
  * Create an OAuth2 client with the given credentials, and then execute the
  * given callback function.
  * @param {Object} credentials The authorization client credentials.
- * @param {function} callback The callback to call with the authorized client.
+ * @param {Function} callback The callback to call with the authorized client.
  */
 function authorize(credentials, callback) {
     const { client_secret, client_id, redirect_uris } = credentials.installed;
